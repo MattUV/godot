@@ -89,6 +89,7 @@ class InputDefault : public Input {
 		bool last_buttons[JOY_BUTTON_MAX + 19]; //apparently SDL specifies 35 possible buttons on android
 		float last_axis[JOY_AXIS_MAX];
 		float filter;
+		bool test
 		int last_hat;
 		int mapping;
 		int hat_current;
